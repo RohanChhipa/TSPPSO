@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MersenneTwister" Version="1.0.6" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Include="problems/*.txt" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>
